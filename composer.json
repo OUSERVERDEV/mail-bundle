@@ -11,7 +11,7 @@
     "require": {
         "php": ">=5.3",
         "symfony/symfony": "~2.3|~3.0",
-        "alexlbr/email": "~1",
+        "ouserverdev/email": "~1.1",
         "symfony/swiftmailer-bundle": "~2.3|~3.0"
     },
     "require-dev" : {
@@ -23,6 +23,12 @@
             "Chris\\Bundle\\MailBundle\\": ""
         }
     },
+    "repositories": [
+        {
+            "url": "git@github.com:OUSERVERDEV/mail-bundle.git",
+            "type": "git"
+        }
+    ],
     "authors": [
         {
             "name": "Christophe Chausseray",
