@@ -25,7 +25,7 @@
     },
     "repositories": [
         {
-            "url": "git@github.com:OUSERVERDEV/mail-bundle.git",
+            "url": "git@github.com:OUSERVERDEV/Email.git",
             "type": "git"
         }
     ],
