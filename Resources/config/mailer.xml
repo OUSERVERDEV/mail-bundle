@@ -17,8 +17,7 @@
         <service id="alexlbr_sendgrid.sendgrid_email_factory" class="%alexlbr_sendgrid.sendgrid_email_factory.class%" />
         <service id="alexlbr_sendgrid.sendgrid_response_factory" class="%alexlbr_sendgrid.sendgrid_response_factory.class%" />
         <service id="sendgrid" class="%sendgrid.class%">
-            <argument>%mail_bundle.sendgrid.user%</argument>
-            <argument>%mail_bundle.sendgrid.password%</argument>
+            <argument>%mail_bundle.sendgrid.key%</argument>
             <argument>%mail_bundle.sendgrid.options%</argument>
         </service>
         <service id="alexlbr_sendgrid.sendgrid" class="%alexlbr_sendgrid.sendgrid.class%">
